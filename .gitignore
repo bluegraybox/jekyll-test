@@ -1,0 +1,10 @@
+# my commit working files
+.commit
+.diff
+
+# Jekyll local caches
+.bundle/
+.sass-cache/
+Gemfile.lock
+_site/
+vendor/
