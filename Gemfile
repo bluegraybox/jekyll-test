@@ -32,3 +32,9 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
+
+
+# ADDITIONS TO BASE GEMFILE
+
+# Fix for mismatched deps: https://github.com/ffi/ffi/issues/1103
+gem "ffi", "< 1.17.0"
