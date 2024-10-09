@@ -5,3 +5,7 @@ serve:
 init:
 	bundle config set path 'vendor/bundle'
 	bundle install
+
+update:
+	bundle config set path 'vendor/bundle'
+	bundle update
